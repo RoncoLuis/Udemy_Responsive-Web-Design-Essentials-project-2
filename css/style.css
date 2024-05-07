@@ -1,0 +1,89 @@
+html{
+/* Fix the proble of repeating page (when it's too small) */
+height: 100%;
+
+}
+body{
+    background-color: #3b4252;
+    background-image: linear-gradient(90deg, #3b4252 0%, #434c5e 100%);
+     /* default settings */
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header{
+    /* background-color: blue; */
+    min-height: 100px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav{
+    /* background-color: #C8102E; */
+    min-height: 100px;
+    flex: 2;
+    text-align: right;
+    text-decoration: none;
+    padding-top: 25px;
+}
+
+main{
+    /* background-color: rgb(0, 98, 255); */
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    /* background-color: red; */
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    flex: 1;
+}
+
+.herobox1{
+    flex: 2;
+}
+
+.herobox2{
+    /* background-color: hotpink; */
+    flex: 1;
+}
+
+h1,.hero-title{
+    font-size: 80px;
+    
+}
+
+.cards{
+    background-color: rgb(0, 166, 255);
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    background-color: #006341;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card2{
+    background-color: #fff;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3{
+    background-color: #C8102E;
+    min-height: 300px;
+    width: 30%;
+}

@@ -60,6 +60,14 @@ main{
 
 h1,.hero-title{
     font-size: 80px;
+    font-family: "Oswald","Source Sans 3", sans-serif;font-optical-sizing: auto;
+}
+
+p,.hero-text{
+    font-size: 18px;
+    font-family: "Source Sans 3","Oswald", sans-serif;
+    font-optical-sizing: auto;
+     
     
 }
 

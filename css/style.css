@@ -22,17 +22,13 @@ header{
 }
 
 nav{
-    /* background-color: #C8102E; */
-    min-height: 100px;
-    flex: 2;
     text-align: right;
     text-decoration: none;
     padding-top: 25px;
+    flex: 2;
 }
 
 main{
-    /* background-color: rgb(0, 98, 255); */
-    min-height: 300px;
     display: flex;
     align-items: center;
 }
@@ -54,21 +50,23 @@ main{
 }
 
 .herobox2{
-    /* background-color: hotpink; */
     flex: 1;
+    /* outline:1px solid red; */
 }
 
 h1,.hero-title{
-    font-size: 80px;
+    /* font-size: 80px; */
+    font-size: 5rem;
     font-family: "Oswald","Source Sans 3", sans-serif;font-optical-sizing: auto;
+    /* outline: 1px solid red; */
 }
 
 p,.hero-text{
-    font-size: 18px;
+    /* 1rem = 16px */
+    font-size: 1rem;
     font-family: "Source Sans 3","Oswald", sans-serif;
     font-optical-sizing: auto;
-     
-    
+    line-height: 1.75rem; 
 }
 
 .cards{

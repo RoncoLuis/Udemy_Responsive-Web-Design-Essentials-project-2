@@ -110,11 +110,16 @@ p,.hero-text{
     font-size: 0.85rem;
     font-family: "Source Sans 3","Oswald", sans-serif;
     line-height: 1.25rem; 
-    margin: 20px 30px 20px 30px;
+    margin: 5px 30px 20px 30px;
 }
 
-i{
+.cards i{
     font-size: 50px;
-    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.cards a{
+    color: white;
+    text-decoration: none;
 }
 

@@ -5,7 +5,7 @@ height: 100%;
 }
 body{
     background-color: #3b4252;
-    background-image: linear-gradient(90deg, #3b4252 0%, #434c5e 100%);
+    /* background-image: linear-gradient(90deg, #3b4252 0%, #434c5e 100%); */
      /* default settings */
     font-family:Arial, Helvetica, sans-serif;
     color: white;
@@ -19,6 +19,7 @@ header{
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid white ;
 }
 
 nav{
@@ -32,6 +33,7 @@ main{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 a{
@@ -127,7 +129,7 @@ a.mybutton{
     display: block;
     margin-top: 20px;
     width: 100px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.356);
+    /* box-shadow: 5px 5px rgba(0, 0, 0, 0.356); */
 }
 
 
@@ -154,3 +156,16 @@ a.mybutton{
     border-radius: 12px;
 }
 
+
+nav a.mybutton{
+    display: inline;
+    margin-left: 30px;   
+}
+
+.navbutton{
+    background-color: #3b4252;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}

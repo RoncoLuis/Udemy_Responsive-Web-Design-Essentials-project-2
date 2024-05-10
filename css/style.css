@@ -31,6 +31,12 @@ nav{
 main{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 .container{
@@ -47,7 +53,7 @@ main{
 
 .herobox1{
     flex: 2;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .herobox2{
@@ -67,6 +73,8 @@ main{
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    border-radius: 12px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.356);
 }
 
 .card2{
@@ -75,6 +83,8 @@ main{
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    border-radius: 12px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.356);
 }
 
 .card3{
@@ -83,21 +93,43 @@ main{
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    border-radius: 12px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.356);
 }
 
-h1,.hero-title{
+.herobox1 h1{
     font-size: 5rem;
     font-family: "Oswald","Source Sans 3", sans-serif;font-optical-sizing: auto;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.356);
 }
 
-p,.hero-text{
+.herobox1 p{
     /* 1rem = 16px */
     font-size: 1rem;
     font-family: "Source Sans 3","Oswald", sans-serif;
-    font-optical-sizing: auto;
     line-height: 1.75rem; 
     padding-top: 20px;
 }
+
+.mybutton{
+    background-color: white;
+    color: #fa4083;
+    font-family: "Source Sans 3","Oswald", sans-serif;
+    padding: 11px 25px;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+a.mybutton{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.356);
+}
+
 
 .cards h2{
     font-size: 2.5rem;
@@ -118,8 +150,7 @@ p,.hero-text{
     padding-top: 30px;
 }
 
-.cards a{
-    color: white;
-    text-decoration: none;
+.herobox2 img{
+    border-radius: 12px;
 }
 

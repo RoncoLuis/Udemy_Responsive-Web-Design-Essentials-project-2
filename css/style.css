@@ -1,7 +1,6 @@
 html{
 /* Fix the proble of repeating page (when it's too small) */
 /* height: 100%; */
-
 }
 body{
     background-color: #3b4252;
@@ -132,6 +131,12 @@ a.mybutton{
     /* box-shadow: 5px 5px rgba(0, 0, 0, 0.356); */
 }
 
+/* hover state */
+.mybutton:hover{
+    background-color: #fa4083;
+    color: white;
+}
+
 
 .cards h2{
     font-size: 2.5rem;
@@ -190,3 +195,12 @@ p.comment{
     padding-bottom: 20px;
 }
 
+/* access last/first child of and element */
+/* .tbox :first-child{
+    color: red;
+} */
+
+/* access last/first child of and element (more specific) */
+.tbox p:last-child{
+    font-size: 0.85rem;
+}

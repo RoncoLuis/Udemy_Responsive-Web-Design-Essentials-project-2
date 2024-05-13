@@ -1,11 +1,15 @@
 html{
 /* Fix the proble of repeating page (when it's too small) */
 /* height: 100%; */
+background-color: #3b4252;
+/* background-image: linear-gradient(90deg, #3b4252 0%, #434c5e 100%); */
 }
+
 body{
-    background-color: #3b4252;
-    /* background-image: linear-gradient(90deg, #3b4252 0%, #434c5e 100%); */
-     /* default settings */
+    /* default settings (affect all elements) */
+    background-image: url(/images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center; 
     font-family:Arial, Helvetica, sans-serif;
     color: white;
 }
